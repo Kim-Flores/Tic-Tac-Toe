@@ -1,0 +1,90 @@
+body{
+  background: #E0D0FF;
+  font-family: "Concert One";
+}
+
+h1{
+  -webkit-text-stroke: 1px black;
+  color:#FFF;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+h1:hover, p:hover{
+	color:#D0FFE0;
+}
+
+p{
+  -webkit-text-stroke: 1px black;
+  color: #FFF;
+  margin-block-start: 15px;
+  margin-block-end: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#tableElement{
+  margin: 10px auto;
+  border-collapse: separate;
+  border-spacing: 5px;
+  width: 45%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.game{
+  font-size: 95px;
+}
+
+.game:hover {
+  background-color: #FFE0D0;
+  border: 5px solid black;
+}
+
+table{
+  margin: auto;
+  border-collapse:collapse;
+}
+
+td{
+  background-color: black;
+	border: 5px solid #a89cbf;
+	font-size:90px;
+	color:#FFF;
+	border-radius: 10px 10px 10px 10px;
+}
+
+table td{
+  background:#706880;
+  -webkit-text-stroke: 3px black;
+  color:white;
+  font-size: 40px;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.reset{
+  border-radius: 3px;
+  font-family: "Concert One";
+  letter-spacing: 1px;
+  border: 3px solid #000;
+  background-color: #A89CBF;
+  width: 130px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+}
+
+.reset:hover{
+  background-color: #D0FFE0;
+  color:black;
+}
+
+.centerBtn{
+  text-align: center;
+}
